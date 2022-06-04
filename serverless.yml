@@ -71,7 +71,7 @@ resources:
       Properties:
         TopicArn: !Ref QuotesMessages
         Protocol: email
-        Endpoint: shashank.rai92@gmail.com
+        Endpoint: your.email@gmail.com
         DeliveryPolicy:
           healthyRetryPolicy:
             numRetries: 20
